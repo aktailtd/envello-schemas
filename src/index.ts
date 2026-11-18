@@ -7,4 +7,3 @@ export * from "./billing.js";
 export * from "./template.js";
 export * from "./team.js";
 export * from "./deliverability.js";
-export * from "./kra.js";
