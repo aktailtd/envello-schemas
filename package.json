@@ -30,7 +30,7 @@
     "url": "git+https://github.com/aktailtd/envello-schemas.git"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "rm -rf dist && tsc -p tsconfig.json",
     "typecheck": "tsc --noEmit",
     "lint": "echo \"no lint configured yet\""
   },
